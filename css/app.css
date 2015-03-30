@@ -1,0 +1,36 @@
+html,
+body,
+#content,
+#content > .full-height div,
+#content > .full-height div > pre,
+#content > .full-height div > label,
+#content > .full-height div > label > textarea
+{
+    height: 100%;
+}
+#content {
+    padding: 40px 15px;
+    text-align: center;
+}
+#content > .full-height {
+    height: 85%;
+}
+#content > .full-height div > label,
+#content > .full-height div > label > textarea {
+    width: 100%;
+}
+#editor {
+    resize: none;
+    color: white;
+    background-color: black;
+    font-family: monospace;
+}
+#rendered-view > iframe {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+#markup > pre {
+    margin-top: 0;
+}
